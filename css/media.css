@@ -358,6 +358,30 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+	.listing-page-main-title h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.listing-page-space-feature span {
+		font-size: 16px;
+		padding: 5px;
+		height: 30px;
+		width: 30px;
+	}
+	.listing-page-space-feature h5 {
+		font-size: 11px;
+		line-height: 14px;
+	}
+	.listing-page-booking-request-box {
+		padding: 22px 15px 35px 15px;
+	}
+	.listing-page-right-content-card-body {
+		padding: 22px 5px 10px 15px;
+	}
+	.listing-page-calendar {
+	    padding: 30px 5px;
+	    width: 100%;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -594,6 +618,10 @@
 	.city-search-result-content-map {
 	    padding-left: 0;
 	    padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 30px;
+		line-height: 28px;
 	}
 }
 /* Medium devices (tablets, 768px and up) */
@@ -843,6 +871,9 @@
 		width: 100%;
 		position: relative;
 	}
+	.listing-page-main-title h2 {
+		font-size: 30px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -949,6 +980,18 @@
 	.city-search-result-content-map {
 	    padding-left: 0;
 	    padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 35px;
+	}
+	.listing-page-calendar {
+	    background: #FFFFFF;
+	    border: 1px solid #EAEAE7;
+	    box-sizing: border-box;
+	    box-shadow: 0px 2px 2px rgba(218, 227, 225, 0.1), inset 0px -1px 1px rgba(218, 227, 225, 0.15);
+	    border-radius: 4px;
+	    padding: 30px 10px;
+	    width: 112%;
 	}
 }
 
