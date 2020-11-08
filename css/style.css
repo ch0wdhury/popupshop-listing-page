@@ -2394,6 +2394,10 @@ button.switch-month:active {
 	color: #393F3E;
 	margin: 10px 0;
 }
+.listing-booking-collapse-left-content p a {
+	font-size: 12px;
+	color: #393F3E;
+}
 .listing-booking-collapse-right-content p {
 	font-weight: 500;
 	font-size: 14px;
@@ -2474,6 +2478,13 @@ button.switch-month:active {
 	font-size: 16px;
 	font-weight: 300;
 	color: #393F3E;
+}
+.listing-page-popover-content {
+	display: none;
+	width: 300px;
+}
+.popover-body {
+	width: 225px;
 }
 /*Listing Page Main Content Section Ends Here*/
 /*Footer Section Starts Here*/
