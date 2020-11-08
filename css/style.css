@@ -2485,6 +2485,8 @@ button.switch-month:active {
 }
 .popover-body {
 	width: 225px;
+	font-weight: 400;
+	font-size: 12px;
 }
 /*Listing Page Main Content Section Ends Here*/
 /*Footer Section Starts Here*/
