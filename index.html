@@ -565,7 +565,7 @@
                             <div class="row bottom-border-styling">
                               <div class="col-6 my-auto">
                                 <div class="listing-booking-collapse-left-content">
-                                  <p>Service Fee</p>
+                                  <p>Service Fee  &nbsp; <a data-placement="top" data-toggle="popover" data-container="body" type="button" href="#" data-content="This helps us run our platform and offer you dedicated customer service during your booking."><span class="icon-info"></span></a></p>
                                 </div>
                               </div>
                               <div class="col-6 text-right">
@@ -577,7 +577,7 @@
                             <div class="row bottom-border-styling">
                               <div class="col-6">
                                 <div class="listing-booking-collapse-left-content">
-                                  <p>VAT</p>
+                                  <p>VAT &nbsp; <a data-placement="top" data-toggle="popover" data-container="body" type="button" data-html="true" href="#"><span class="icon-info"></span></a></p>
                                 </div>
                               </div>
                               <div class="col-6 text-right">
@@ -586,6 +586,46 @@
                                 </div>
                               </div>
                             </div>
+                            <!-- Popover -->
+                            <div class="listing-page-popover-content" class="d-none">
+                              <div class="row bottom-border-styling">
+                                <div class="col-6 my-auto">
+                                  <div class="listing-booking-collapse-left-content">
+                                    <p>Rent VAT</p>
+                                  </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                  <div class="listing-booking-collapse-right-content">
+                                    <p>&pound;237</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row bottom-border-styling">
+                                <div class="col-6">
+                                  <div class="listing-booking-collapse-left-content">
+                                    <p>Service Fee VAT</p>
+                                  </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                  <div class="listing-booking-collapse-right-content">
+                                    <p>&pound;12</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                  <div class="listing-booking-collapse-left-content">
+                                    <p style="color: #000; font-weight: 700;"><strong>Total VAT</strong></p>
+                                  </div>
+                                </div>
+                                <div class="col-6 text-right">
+                                  <div class="listing-booking-collapse-right-content">
+                                    <p style="color: #000; font-weight: 700;"><strong>&pound;249</strong></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Popover -->
                             <div class="row">
                               <div class="col-6">
                                 <div class="listing-booking-collapse-left-content">
@@ -929,6 +969,14 @@
       $("#collapseBookingTable").on("show.bs.collapse", function(){
         $(".listing-booking-collapse-btn").html('Hide breakdown <span class="icon-chevron-up float-right mt-2" style="  font-weight: 300;font-size: 10px;color: #9AA09E;"></span>');
       });
+    });
+
+
+    $("[data-toggle=popover]").popover({
+    html: true, 
+    content: function() {
+          return $('.listing-page-popover-content').html();
+        }
     });
 
 
