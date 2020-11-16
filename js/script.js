@@ -206,5 +206,3 @@
       window.myDoughnut.update();
     });
 
-
-
