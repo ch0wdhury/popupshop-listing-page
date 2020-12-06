@@ -2010,7 +2010,7 @@ div.custom-control-right .custom-control-label::before {
 	padding-bottom: 15px;
 	border-bottom: 1px solid #EAEAE7;
 }
-@media (min-width: 567px) {
+@media (min-width: 1200px) {
     .affix {
       position: fixed;
       top: 0;
@@ -2021,7 +2021,6 @@ div.custom-control-right .custom-control-label::before {
 .affix-top {
   position: static;
 }
-
 .affix-bottom {
   position: relative;
 }

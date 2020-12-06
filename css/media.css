@@ -483,6 +483,11 @@
 		margin-left: 10px;
 	}
 }
+@media (min-width: 420px) and (max-width: 575.98px) {
+	.list-inline-item:last-child {
+	    margin-right: 0;
+	}
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
